@@ -35,7 +35,7 @@ jobs:
           auth-type: IDENTITY
           tenant-id: ${{ secrets.AZURE_TENANT_ID }}
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
-          # Include client-id if you're using a user-assigned identity
+          # Include client-id if you're using a user-assigned identit
           client-id: ${{ secrets.AZURE_CLIENT_ID }}
           enable-AzPSSession: true
 
