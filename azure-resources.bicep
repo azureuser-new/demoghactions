@@ -1,5 +1,5 @@
 param location string = 'eastus'
-param storage string = 'demostoragegh001'
+param storage string = 'demostoragegh002'
 
 resource storageaccount 'Microsoft.Storage/storageAccounts@2021-02-01' = {
   name: storage
